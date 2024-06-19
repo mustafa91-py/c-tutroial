@@ -23,6 +23,31 @@ void logic_exp(){
 	
 	a = b < c ? b: c ;// bu yapi julia da da vardý !!! ternary operator 
 	// https://github.com/mustafa91-py/juliaTutorials/blob/main/ternary.jl
+	/*
+	julia```
+	
+						x , y = 1 , 2
+					
+						x , y = y , x 
+						
+						x = y
+						
+						t1() = println("$x > $y")
+						
+						t2() = println("$x < $y")
+						
+						t3() = println("$x == $y")
+						
+						# ternary operator
+						
+						x > y ? t1() : (x < y ? t2() : t3())
+						
+						# koþul ? doðru ise  : yanlýþ ise
+	
+	
+	```
+	
+	*/
 	
 	printf("%d\n", a);
 	
