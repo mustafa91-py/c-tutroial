@@ -42,7 +42,7 @@ void logic_exp(){
 						
 						x > y ? t1() : (x < y ? t2() : t3())
 						
-						# koþul ? doðru ise  : yanlýþ ise
+						# kosul ? dogru ise  : yanlis ise
 	
 	
 	```
