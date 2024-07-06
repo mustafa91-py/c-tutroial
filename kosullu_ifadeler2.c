@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ders 11
+
 void note(){
 	int v1,v2,f;
 	float avrg;
