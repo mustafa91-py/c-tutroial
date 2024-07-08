@@ -9,6 +9,7 @@ void for_loop(){
 	
 }
 void for_loop2(){
+	//ders 16
 	int i= 0;
 	
 	int j = 1;
@@ -20,7 +21,26 @@ void for_loop2(){
 	}
 	
 }
-void main(void){
-	for_loop2();
+void fibonacci(void){
+	int ilksayi = 1;
+	int ikincisayi = 1;
+	int i;
+
+
+	for (i = 0 ; i < 12; i++){
+		
+		int temp = ikincisayi;
+		
+		ikincisayi += ilksayi;
+		
+		ilksayi = temp;
+		
+		printf("%d\n",ikincisayi);
+	}
+
 	
+}
+void main(void){
+	//for_loop2();
+	fibonacci();
 }
